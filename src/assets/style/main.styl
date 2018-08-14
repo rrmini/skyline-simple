@@ -1,0 +1,30 @@
+@import "variables.styl"
+@import "mixins.styl"
+
+html, body
+  position relative
+  height 100%
+  font-size 13px
+  background #e6e6e4
+  //background #f8f8f8
+  font-family OpenSans
+  color text-color
+
+h1, h2, h3, h4, h5
+  font-family Merriweather
+
+  
+button
+  &:focus
+    text-decoration none
+    outline none
+a
+  color text-color
+  trans(0.4)
+  &:hover
+    color a-hover
+    text-decoration none
+ul
+  list-style none
+  padding 0
+  margin 0
